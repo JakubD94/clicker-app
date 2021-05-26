@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto Mono", sans-serif;
+}
+body {
+  background-color: rgb(172, 172, 172);
+  background-image: url("https://www.transparenttextures.com/patterns/black-lozenge.png");
+  padding: 0 16px;
+  font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  background-color: #00adb5;
+  font: normal 8px "Andale Mono", AndaleMono, monospace;
+  height: 7rem;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  align-items: center;
+  
+}
+header h1 {
+  width: 25%;
+}
+header h1 a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto Mono", cursive;
+  font-weight: 500;
+  font-size: 50px;
+}
+header div {
+  position: absolute;
+  top: 1.5rem;
+  right: 8rem;  
+  width: 30%;
+  font-size: 40px;
+}
+header div a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto Mono", cursive;
+  font-weight: 500;
+  margin: 0 1rem;
+}
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+footer p {
+  color: rgb(228, 228, 228);
+}
+.container {
+  margin: 10% auto;
+}
+.container h1 {
+  height: 5rem;
+  width: 10rem;
+  margin: auto;
+  font-size: 100px;
+}
+.container h2 {
+  height: 3rem;
+  width: 10rem;
+  margin: 2rem auto auto;
+  font-size: 40px;
+}
+button {
+  display: inline-block;
+  background-color: #00adb5;
+  border: 0;
+  width: 60px;
+  margin: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+}
+button.reset {
+  width: 8.5rem;
+  display: block;
+  margin: 2rem auto;
+  font-size: 25px;
+  padding:1rem;
+}
