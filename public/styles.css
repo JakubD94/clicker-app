@@ -44,6 +44,7 @@ header div {
   font-size: 40px;
 }
 header div a {
+  cursor: pointer;
   text-decoration: none;
   color: #fff;
   font-family: "Roboto Mono", cursive;
@@ -93,4 +94,39 @@ button.reset {
   margin: 2rem auto;
   font-size: 25px;
   padding:1rem;
+}
+.achievementContainer {
+  border: solid 4px #fff;
+  position: absolute;
+  left: 5rem;
+  top: 10rem;
+  width: 25rem;
+  padding: 1rem;
+  margin: 3rem;
+}
+
+.achievementContainer h1 {
+  padding: 1rem;
+  border-bottom: solid 2px #fff;
+}
+
+.shopContainter {
+  border: solid 4px #fff;
+  position: absolute;
+  right: 5rem;
+  top: 10rem;
+  width: 25rem;
+  padding: 1rem;
+  margin: 3rem;
+}
+.shopContainter h1 {
+  font-size: 2rem;
+  height: 3rem;
+}
+.shopContainter button {
+  cursor: pointer;
+  width: 20rem;
+  font-size: 1rem;
+  padding: 1rem;
+  border: solid 2px #fff;
 }
